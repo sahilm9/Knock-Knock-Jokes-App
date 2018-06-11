@@ -20,7 +20,7 @@ body{
          -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     text-align: center;
-    width: 11.25rem;
+    width: 15.625rem;
 }
 .hidden {
     display:none;
@@ -71,7 +71,7 @@ body{
     cursor: pointer;
 }
 .last-item .answers-sentence{
-  width:25rem;
+  width:18.75rem;
 }
 /*Error and progress styles*/
 .error {
