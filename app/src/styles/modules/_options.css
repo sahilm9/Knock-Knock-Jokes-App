@@ -1,0 +1,26 @@
+/*Options Styles*/
+.options p, .answer-list p {
+    display: none;
+    margin-bottom: 0.9375rem;
+    font-size: 1.25rem;
+    color:  #b20039;
+    transition: color 0.2s ease;
+    cursor:pointer;
+}
+
+.options p.active {
+    color: #fff;
+    background:  #b20039;
+    border-top-left-radius:2.1875rem;
+    border-bottom-right-radius:2.1875rem;
+    padding:0.3125rem;
+
+}
+
+.next-question {
+    cursor: pointer;
+}
+
+.last-item .answers-sentence{
+  width:25rem;
+}

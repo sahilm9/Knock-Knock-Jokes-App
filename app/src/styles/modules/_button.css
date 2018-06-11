@@ -1,0 +1,30 @@
+/*Button Styles*/
+button {
+  outline: none;
+  height: 2.5rem;
+  text-align: center;
+  width: 9.375rem;
+  border-radius: 3.125rem;
+  background: #fff;
+  border: 0.125rem solid #1abc9c;
+  color: #1abc9c;
+  letter-spacing: 0.0625rem;
+  box-shadow: 0.125rem 0.125rem 0rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+      font-family: 'Roboto', sans-serif;
+}
+
+button:hover{
+  background:#1abc9c;
+  color:#fff;
+  transition: all 0.75s ease-in-out;
+}
+
+button:active{
+  position:relative;
+  top:0.25rem;
+}

@@ -1,0 +1,13 @@
+/*Start quiz styles*/
+.start-quiz{
+    border: 0.0625rem solid #cccccc;
+    padding: 0.625rem 1.25rem;
+    border-radius: 3.125rem;
+    color: #9a9a9a;
+    cursor:pointer;
+}
+.start-quiz.started {
+    background: #cc0042;
+    color: #fff;
+    transition: background 1s ease-in-out;
+}
